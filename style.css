@@ -1,0 +1,46 @@
+body{
+    background-color: aqua;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+gap: 1px;
+width: 300px;
+height: 250px;
+border: 1px solid black;
+justify-content: center;
+margin: auto;
+margin-top: 100px;
+
+}
+  .cell{
+    display: flex;
+    border: 2px solid rgb(61, 5, 5);
+    cursor: pointer;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.mode-selection {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mode-selection button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid rgb(61, 5, 5);
+}
+
+.mode-selection button:hover {
+    background-color: rgb(61, 5, 5);
+    color: white;
+}
